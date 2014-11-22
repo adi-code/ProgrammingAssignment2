@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Example:
 ## a <- makeCacheMatrix(matrix(c(1, 0, 0, 1), 2, 2))
 ## inv <- cacheSolve(a) # computes the inverse of a and saves the result
-## inv2 <- cacheSolve(a) # doesn't compute one more time, just returns
+## inv2 <- cacheSolve(a) # doesn't compute again, just returns
 ## a$set(matrix(c(2, 0, 0, 2), 2, 2))
 ## inv3 <- cacheSolve(a) # a matrix has been changed, so compute a new inverse
 ## inv4 <- cacheSolve(a) # returns the previously computed result
